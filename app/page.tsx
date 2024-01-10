@@ -3,7 +3,7 @@
 import { NextPage } from "next";
 import { description, subdescription, technologies } from "~/data/data";
 
-const HomePage: NextPage = () => {
+const HomePage = () => {
   // const boards = await prisma.board.findMany();
   // throw new Error("Something went wrong");
   // console.log(boards);
