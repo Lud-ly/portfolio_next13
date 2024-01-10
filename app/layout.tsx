@@ -12,11 +12,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning={true}>
+    <html lang="fr" suppressHydrationWarning={true}>
       <Head />
-      <body className="flex items-center justify-center h-screen lg:py-16 bg-white dark:bg-gradient-to-r from-gray-900 to-black text-black dark:text-gray-50">
+      <body className="flex items-center justify-center bg-white dark:bg-gradient-to-r from-gray-900 to-black text-black dark:text-gray-50">
         <ThemeProvider attribute="class">
-          <div className="grid grid-cols-12 gap-6 px-5 my-14 lg:h-screen p-5 mx-auto">
+          <div className="grid grid-cols-12 gap-6 px-5 p-5 mx-auto">
             <div className="flex flex-col items-center col-span-12 p-4 text-base text-center bg-gray-200 dark:bg-black lg:col-span-3 rounded-2xl shadow-custom-light dark:shadow-custom-dark ">
               <Sidebar />
             </div>
