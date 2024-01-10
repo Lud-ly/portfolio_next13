@@ -64,11 +64,11 @@ export default function ProjectPage({
             ))}
           </div>
         </div>
-        <div className="col-span-3 flex justify-center space-x-3 my-3">
+        <div className="col-span-3 flex flex-col items-center my-3 sm:flex-row sm:justify-center sm:items-center">
           <a
             href={p!.deployed_url}
             target="_blank"
-            className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-black text-black dark:text-white dark:hover:bg-gray-900 hover:bg-gray-300 rounded-md"
+            className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-black text-black dark:text-white dark:hover:bg-gray-900 hover:bg-gray-300 rounded-md m-2"
           >
             <AiFillEye />
             <span>VOIR</span>
@@ -76,14 +76,13 @@ export default function ProjectPage({
           <a
             href={p!.github_url}
             target="_blank"
-            className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-black text-black dark:text-white dark:hover:bg-gray-900 hover:bg-gray-300 rounded-md"
+            className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-black text-black dark:text-white dark:hover:bg-gray-900 hover:bg-gray-300 rounded-md m-2"
           >
             <span>REPOSITORY</span> <AiFillCode />
           </a>
-
           <button
             onClick={() => setShowDetail(true)}
-            className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-black text-black dark:text-white dark:hover:bg-gray-900 hover:bg-gray-300 rounded-md"
+            className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-black text-black dark:text-white dark:hover:bg-gray-900 hover:bg-gray-300 rounded-md m-2"
           >
             <span>PLUS</span>
             <AiFillPlusSquare />
