@@ -19,7 +19,7 @@ const Sidebar = () => {
         <span className="text-green-500">LUDOVIC</span> MOULY
       </h3>
       <p className="px-2 py-1 my-3 bg-white dark:bg-gray-900 rounded-md">
-        DÉVELOPPEUR FULLSTACK
+        DÉVELOPPEUR WEB & MOBILE
       </p>
 
       {/* Socials */}
@@ -53,9 +53,8 @@ const Sidebar = () => {
         CONTACT
       </button>
       {/* Email Button */}
-
       <a
-        href="/images/LUDOVIC_MOULY.pdf"
+        href="/pdf/LUDOVIC_MOULY.pdf"
         download="LUDOVIC_MOULY.pdf"
         className="w-8/12 px-2 py-2 bg-gray-100 rounded-full cursor-pointer dark:bg-gray-900 hover:scale-105 hover:text-green-500"
       >
