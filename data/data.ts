@@ -132,10 +132,10 @@ export const projects: Project[] = [
     deployed_url: "http://198.244.231.59",
     github_url: "https://gitlab.com/batiweb/back-office",
     other_url: "bkpro/repobatiweb.png",
-    category: ["SYMFONY", "PHP", "JS", "TWIG"],
+    category: ["SYMFONY"],
     description:
       "Ce projet est un site Internet vitrine pour un électricien, mettant en avant ses services. L'ajout d'un espace client permettra aux utilisateurs de se connecter et de soumettre des demandes de devis en ligne, de suivre l'état de leurs projets et de faciliter la communication avec l'entreprise.",
-    key_techs: ["REST API", "Bootstrap5"],
+    key_techs: ["REST API", "Bootstrap5", "PHP", "JS", "TWIG"],
   },
   {
     id: "4",
@@ -152,10 +152,11 @@ export const projects: Project[] = [
     deployed_url: "http://198.244.231.59/admin",
     github_url: "https://gitlab.com/batiweb",
     other_url: "bkpro/repobatiweb.png",
-    category: ["SYMFONY", "PHP", "JS", "TWIG"],
+    category: ["SYMFONY"],
     description:
       "Le backoffice pour l'électricien vise à simplifier la gestion des devis, des produits, et à faciliter les interventions des collaborateurs sur le terrain. Les fonctionnalités comprennent le suivi des interventions, les devis, la gestion des produits et l'affectation des interventions aux artisans, le planning etc. Une Connexion en temps réel avec les applications mobile Bkpro. L'objectif est d'optimiser l'efficacité opérationnelle, de coordonner les interventions sur site et d'améliorer la gestion globale des projets pour le professionnel artisan.",
     key_techs: [
+      "TWIG",
       "EASYADMIN",
       "API PLATFORM",
       "MySQL",

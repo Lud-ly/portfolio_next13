@@ -48,7 +48,7 @@ export default function ProjectPage({
               </span>
             ))}
           </div>
-          <div className="mb-3 font-medium text-black dark:text-white">
+          <div className="mb-3 mt-5 font-medium text-black dark:text-white">
             {p!.description}
           </div>
         </div>
