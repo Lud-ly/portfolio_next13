@@ -190,7 +190,7 @@ export const projects: Project[] = [
       "heatpump/primusb.png",
       "heatpump/readme.png",
     ],
-    deployed_url: "https://heatpumpcalculator.ipso.com/",
+    deployed_url: "https://heatpumpcalculator.primuslaundry.com/",
     github_url: "https://gitlab.com/a8055/heatpumpcalculator/",
     other_url: "heatpump/repo.png",
     category: ["SYMFONY"],
