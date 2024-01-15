@@ -80,9 +80,23 @@ export const subdescription: string =
 export const projects: Project[] = [
   {
     id: "1",
+    name: "EVENTHUB",
+    image_path: "/images/eventhub/eventhub_web.png",
+    other_path: "/images/eventhub/event_phone.png",
+    other_images: ["eventhub/eventhub_web.png", "eventhub/event_phone.png"],
+    deployed_url: "https://lm-eventhub-next13.vercel.app/",
+    github_url: "https://github.com/Lud-ly/eventhub_next13",
+    other_url: "eventhub/event_phone.png",
+    category: ["NEXT"],
+    description:
+      "Application offre une plateforme dynamique pour le partage et la discussion de questions, avec la possibilité pour les utilisateurs de présenter des propositions et de participer à un processus de vote communautaire.",
+    key_techs: ["Prisma", "PostgreSQL"],
+  },
+  {
+    id: "2",
     name: "ONLiVYOU BACKOFFICE",
     description:
-      "Backoffice E-commerce pour les commerçants développé en Next.js avec Firebase et une API. Visibilité et gestion en temps réel des livraisons, des produits et des performances financières. Ce Backoffice est étroitement lié à l'application mobile ci-après, facilitant la coordination entre les livreurs et les clients.",
+      "Participation au développement des routes API pour le POC du Backoffice E-commerce destiné aux commerçants, construit en Next.js avec Firebase et une API. Offre une visibilité en temps réel et une gestion efficace des livraisons, des produits, et des performances financières. Ce Backoffice est étroitement intégré à l'application mobile associée, simplifiant ainsi la coordination entre les livreurs et les clients",
     image_path: "/images/onlivyou/onlivyoufr.png",
     other_path: "/images/onlivyou/repo_onlivyou.png",
     other_images: [
@@ -99,10 +113,11 @@ export const projects: Project[] = [
     key_techs: ["SOCKET", "FIREBASE", "API REST"],
   },
   {
-    id: "2",
+    id: "3",
     name: "APPLICATION MOBILE ONLiVYOU",
     description:
-      "Cette application type Uber permet l'achat d'article dans les boutiques autour de la localisation du client à Nice.Le suivi de livraison et le tracking du livreur onlivyou, la commande chez le client en moins d'une heure par les livreurs onlivyou, des produits des boutiques sur Nice.",
+      "Contributions à la réalisation de ce POC : facilitation des achats d'articles dans les boutiques locales autour de la position du client à Nice. Mise en place d'un suivi de livraison avec le tracking du livreur OnLivYou, permettant ainsi aux clients de recevoir leur commande en moins d'une heure par le biais des livreurs OnLivYou. Ceci concerne une variété de produits provenant des boutiques locales de Nice.",
+
     image_path: "/images/onlivyou/card_onlivyou_mobile.png",
     other_path: "/images/onlivyou/github.png",
     other_images: [
@@ -119,7 +134,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: "3",
+    id: "4",
     name: "SITE CLIENT ELECTRICIEN BKPRO",
     image_path: "/images/bkpro/bkprosite.png",
     other_path: "/images/bkpro/repobatiweb.png",
@@ -138,7 +153,7 @@ export const projects: Project[] = [
     key_techs: ["REST API", "Bootstrap5", "PHP", "JS", "TWIG"],
   },
   {
-    id: "4",
+    id: "5",
     name: "BACKOFFICE BKPRO BATIWEB",
     image_path: "/images/bkpro/card_back_bkpro.png",
     other_path: "/images/bkpro/apiplatform.png",
@@ -165,7 +180,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "5",
+    id: "6",
     name: "APPLICATION MOBILE BKPRO",
     image_path: "/images/bkpro/card_bkpro_mobile.png",
     other_images: ["bkpro/bkpromobile.png", "bkpro/trackingintervention.png"],
@@ -179,8 +194,8 @@ export const projects: Project[] = [
     key_techs: ["GoogleMap", "Socket io"],
   },
   {
-    id: "6",
-    name: "CALCULATEUR POMPE à CHALEUR",
+    id: "7",
+    name: "CALCULATEURS POMPE À CHALEUR",
     image_path: "/images/heatpump/heatpumph.png",
     other_path: "/images/heatpump/repo.png",
     other_images: [

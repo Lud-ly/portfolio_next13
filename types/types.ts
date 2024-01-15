@@ -71,4 +71,6 @@ export type Otherimages =
   | "heatpump/primus.png"
   | "heatpump/primusb.png"
   | "heatpump/readme.png"
-  | "heatpump/heatpumph.png";
+  | "heatpump/heatpumph.png"
+  | "eventhub/eventhub_web.png"
+  | "eventhub/event_phone.png";
