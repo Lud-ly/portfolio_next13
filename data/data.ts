@@ -94,47 +94,6 @@ export const projects: Project[] = [
   },
   {
     id: "2",
-    name: "ONLiVYOU BACKOFFICE",
-    description:
-      "Participation au développement des routes API pour le POC du Backoffice E-commerce destiné aux commerçants, construit en Next.js avec Firebase et une API. Offre une visibilité en temps réel et une gestion efficace des livraisons, des produits, et des performances financières. Ce Backoffice est étroitement intégré à l'application mobile associée, simplifiant ainsi la coordination entre les livreurs et les clients",
-    image_path: "/images/onlivyou/onlivyoufr.png",
-    other_path: "/images/onlivyou/repo_onlivyou.png",
-    other_images: [
-      "onlivyou/settingback.png",
-      "onlivyou/commandeback.png",
-      "onlivyou/commandedetail.png",
-      "onlivyou/encoursback.png",
-    ],
-    deployed_url:
-      "https://liv-frontend-dev-git-develop-trsaid.vercel.app/dashboard",
-    github_url: "https://github.com/onlivyou/liv_frontend_commercant",
-    other_url: "onlivyou/repo_onlivyou.png",
-    category: ["NEXT"],
-    key_techs: ["SOCKET", "FIREBASE", "API REST"],
-  },
-  {
-    id: "3",
-    name: "APPLICATION MOBILE ONLiVYOU",
-    description:
-      "Contributions à la réalisation de ce POC : facilitation des achats d'articles dans les boutiques locales autour de la position du client à Nice. Mise en place d'un suivi de livraison avec le tracking du livreur OnLivYou, permettant ainsi aux clients de recevoir leur commande en moins d'une heure par le biais des livreurs OnLivYou. Ceci concerne une variété de produits provenant des boutiques locales de Nice.",
-
-    image_path: "/images/onlivyou/card_onlivyou_mobile.png",
-    other_path: "/images/onlivyou/github.png",
-    other_images: [
-      "onlivyou/trackingcourse.png",
-      "onlivyou/onlivyoumobile.png",
-      "onlivyou/ordermobile.png",
-    ],
-    deployed_url: "https://apps.apple.com/fr/app/onlivyou/ref6447993451",
-    github_url: "https://www.github.com/onlivyou/liv_mobile",
-    other_url: "onlivyou/github.png",
-
-    category: ["FLUTTER"],
-    key_techs: ["Dart", "GoogleMap", "Socket.io", "Firebase"],
-  },
-
-  {
-    id: "4",
     name: "SITE CLIENT ELECTRICIEN BKPRO",
     image_path: "/images/bkpro/bkprosite.png",
     other_path: "/images/bkpro/repobatiweb.png",
@@ -153,7 +112,7 @@ export const projects: Project[] = [
     key_techs: ["REST API", "Bootstrap5", "PHP", "JS", "TWIG"],
   },
   {
-    id: "5",
+    id: "3",
     name: "BACKOFFICE BKPRO BATIWEB",
     image_path: "/images/bkpro/card_back_bkpro.png",
     other_path: "/images/bkpro/apiplatform.png",
@@ -180,7 +139,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "6",
+    id: "4",
     name: "APPLICATION MOBILE BKPRO",
     image_path: "/images/bkpro/card_bkpro_mobile.png",
     other_images: ["bkpro/bkpromobile.png", "bkpro/trackingintervention.png"],
@@ -194,7 +153,7 @@ export const projects: Project[] = [
     key_techs: ["GoogleMap", "Socket io"],
   },
   {
-    id: "7",
+    id: "5",
     name: "CALCULATEURS POMPE À CHALEUR",
     image_path: "/images/heatpump/heatpumph.png",
     other_path: "/images/heatpump/repo.png",
@@ -212,5 +171,45 @@ export const projects: Project[] = [
     description:
       "Comparateur de coûts entre une pompe à chaleur et une source électrique avec des hypothèses ajustables. Possibilité de sauvegarder chaque calcul sous forme de PDF pour référence future.",
     key_techs: ["Symfony 6", "MySQL", "JS"],
+  },
+  {
+    id: "6",
+    name: "ONLiVYOU BACKOFFICE",
+    description:
+      "Participation au développement des routes API pour le POC du Backoffice E-commerce destiné aux commerçants, construit en Next.js avec Firebase et une API. Offre une visibilité en temps réel et une gestion efficace des livraisons, des produits, et des performances financières. Ce Backoffice est étroitement intégré à l'application mobile associée, simplifiant ainsi la coordination entre les livreurs et les clients",
+    image_path: "/images/onlivyou/onlivyoufr.png",
+    other_path: "/images/onlivyou/repo_onlivyou.png",
+    other_images: [
+      "onlivyou/settingback.png",
+      "onlivyou/commandeback.png",
+      "onlivyou/commandedetail.png",
+      "onlivyou/encoursback.png",
+    ],
+    deployed_url:
+      "https://liv-frontend-dev-git-develop-trsaid.vercel.app/dashboard",
+    github_url: "https://github.com/onlivyou/liv_frontend_commercant",
+    other_url: "onlivyou/repo_onlivyou.png",
+    category: ["NEXT"],
+    key_techs: ["SOCKET", "FIREBASE", "API REST"],
+  },
+  {
+    id: "7",
+    name: "APPLICATION MOBILE ONLiVYOU",
+    description:
+      "Contributions à la réalisation de ce POC : facilitation des achats d'articles dans les boutiques locales autour de la position du client à Nice. Mise en place d'un suivi de livraison avec le tracking du livreur OnLivYou, permettant ainsi aux clients de recevoir leur commande en moins d'une heure par le biais des livreurs OnLivYou. Ceci concerne une variété de produits provenant des boutiques locales de Nice.",
+
+    image_path: "/images/onlivyou/card_onlivyou_mobile.png",
+    other_path: "/images/onlivyou/github.png",
+    other_images: [
+      "onlivyou/trackingcourse.png",
+      "onlivyou/onlivyoumobile.png",
+      "onlivyou/ordermobile.png",
+    ],
+    deployed_url: "https://apps.apple.com/fr/app/onlivyou/ref6447993451",
+    github_url: "https://www.github.com/onlivyou/liv_mobile",
+    other_url: "onlivyou/github.png",
+
+    category: ["FLUTTER"],
+    key_techs: ["Dart", "GoogleMap", "Socket.io", "Firebase"],
   },
 ];
